@@ -7,11 +7,16 @@ public final class App {
     private App() {
     }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+    Person person1=  new Person("Andreina", "Arias", "Z1519988P", 1986, "Venezuela", 'M');
+    Person person2=  new Person("Oriana", "Gonalez", "Z1856374H", 1993, "España", 'M');
+    
+
+    System.out.println("Information of Person 1:");
+        person1.mostrar();
+
+        System.out.println("Information of Person 2:");
+        person2.mostrar();
+
+}
 }
